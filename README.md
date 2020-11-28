@@ -4,5 +4,5 @@
 ###### Jokes aside, it's locally WIP & Expect cool updates soon 🌟🌟
 
 ###### Technologies put to use for this portfolio so far:
-* GSAP
-* Webpack
+* Framer Motion
+* More coming soon

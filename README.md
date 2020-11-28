@@ -5,4 +5,5 @@
 
 ###### Technologies put to use for this portfolio so far:
 * Framer Motion
-* More coming soon
+* Webpack under the hood
+* Jest

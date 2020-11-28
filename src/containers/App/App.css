@@ -23,3 +23,32 @@ body, h1 { margin: 0; padding : 0}
   color: white;
   display: flex;
 }
+
+.App-construction-msg {
+  font-size: calc(5px + 1vmin);
+}
+
+.App-footer-icon {
+  font-size: calc(5vmin);
+  margin-inline: 10px;
+  color: white;
+}
+
+.App-main-footer {
+  display: flex;
+  position: absolute;
+  bottom: calc(2vmin);
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-footer-icon {
+    font-size: calc(15vmin);
+    margin-inline: 10px;
+  }
+}

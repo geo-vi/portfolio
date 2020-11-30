@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import { motion } from "framer-motion"
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaMedium } from 'react-icons/fa';
 
 function App() {
     const buttonVariants = {
@@ -40,6 +40,13 @@ function App() {
                           href={"https://www.linkedin.com/in/g-ivanov/"}
                 >
                     <FaLinkedin className={"App-footer-icon"}/>
+                </motion.a>
+                <motion.a initial={"inactive"}
+                          whileHover={"hovered"}
+                          variants={buttonVariants}
+                          href={"https://geovi.medium.com"}
+                >
+                    <FaMedium className={"App-footer-icon"}/>
                 </motion.a>
                 <motion.a initial={"inactive"}
                           whileHover={"hovered"}

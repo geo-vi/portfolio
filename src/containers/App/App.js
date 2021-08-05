@@ -7,7 +7,7 @@ import * as THREE from 'three'
 import {useGLTF, OrbitControls, PositionalAudio} from "@react-three/drei";
 
 function Soundtrack(props) {
-    return (<PositionalAudio autoplay url={process.env.PUBLIC_URL + "/mixkit-small-waves-harbor-rocks-1208.wav"} />)
+    return (<PositionalAudio autoplay loop url={process.env.PUBLIC_URL + "/mixkit-small-waves-harbor-rocks-1208.wav"} />)
 }
 
 function Island(props) {

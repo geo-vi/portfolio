@@ -15,13 +15,7 @@ body, h1 { margin: 0; padding : 0}
 }
 
 .App-main-container {
-  min-height: 100vh;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  display: flex;
+  height: 100vh;
 }
 
 .App-construction-msg {
